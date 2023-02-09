@@ -1,0 +1,13 @@
+.App {
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+}
+
+#logo {
+  width: 20rem;
+  height: auto;
+}

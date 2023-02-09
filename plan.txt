@@ -1,0 +1,28 @@
+PLAN
+
+    GOAL: 
+        "Create a website that shows all the news from https://gnews.io/?ref=apilist.fun. If the user types something in the search bar and clicks on the Search button, the corresponding results are shown on the page."
+    
+
+    1. Create low-wireframe ✅
+    2. Create a component tree ✅
+                 ------ App.js ---- ---------
+                |                  |         |
+            SearchBar          SideBar   MainNewsList
+                                  |            |
+                              SmallNews    MainNews
+    3. Create React App ✅
+    4. Delete useless content from create-react-app ✅
+    5. Inside src, create components folder > create components and files ✅
+    6. Understand the API's documentation ✅
+    7. Fetch the API in the App.js file, passing it's data down and building the return using the components ✅
+    8. Build 3rd level components:
+        a. SmallNews ✅
+        b. MainNews ✅
+    9. Build 2nd level components:
+        a. SearchBar ✅
+        c. SideBar ✅
+        d. MainNewsList ✅
+    10. Style the components using CSS ✅
+    11. Create e2e tests with Cypress Studio ✅
+    12. Create unit tests for the news cards
